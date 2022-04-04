@@ -15171,7 +15171,7 @@
             {
               name: "Twitter",
               description: "---",
-              href: "https://twitter.com/SimpsonSwap",
+              href: "https://twitter.com/SIMPSONSSWAP",
             },
             {
               name: "Telegram",
