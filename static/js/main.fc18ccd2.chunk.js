@@ -4256,8 +4256,8 @@
                   M.BSC_TESTNET,
                   "0x5692876d806a883b319c8d2fffa67935a10fd813",
                   9,
-                  "SAKURAINU",
-                  "SAKURAINU"
+                  "SIMPSONSSWAP",
+                  "SIMPSONSSWAP"
                 )
               ),
               Object(H.a)(
@@ -12086,7 +12086,7 @@
                       "You are currently browsing ",
                       Object(c.jsx)("span", {
                         className: "font-bold text-pink",
-                        children: "SAKURAINU",
+                        children: "SIMPSONSSWAP",
                       }),
                       Object(c.jsx)("br", {}),
                       " on the ",
@@ -15337,7 +15337,7 @@
                                         a == M.BSC_TESTNET
                                           ? "0xFfBbEAE934549ce6E420ede7dBc91036d19E95E0"
                                           : "0x5692876d806a883b319c8d2fffa67935a10fd813",
-                                      symbol: "SAKURAINU",
+                                      symbol: "SIMPSONSSWAP",
                                       decimals: 9,
                                       image: "/logotoken.png",
                                     },
@@ -15356,7 +15356,7 @@
                                             "Something went wrong."
                                           );
                                         console.log(
-                                          "Successfully added SAKURAINU to MetaMask"
+                                          "Successfully added SIMPSONSSWAP to MetaMask"
                                         );
                                       })
                                       .catch(console.error);
@@ -27679,7 +27679,7 @@
             children: [
               Object(c.jsx)(oj.a, {
                 children: Object(c.jsx)("title", {
-                  children: "Add Liquidity | SAKURAINU SWAP",
+                  children: "Add Liquidity | SIMPSONSSWAP SWAP",
                 }),
               }),
               Object(c.jsxs)("div", {
@@ -30308,7 +30308,7 @@
             children: [
               Object(c.jsx)(oj.a, {
                 children: Object(c.jsx)("title", {
-                  children: "Pool | SAKURAINU SWAP",
+                  children: "Pool | SIMPSONSSWAP SWAP",
                 }),
               }),
               Object(c.jsx)(_E, { active: "pool" }),
@@ -30549,7 +30549,7 @@
             children: [
               Object(c.jsx)(oj.a, {
                 children: Object(c.jsx)("title", {
-                  children: "Find Pool | SAKURAINU SWAP",
+                  children: "Find Pool | SIMPSONSSWAP SWAP",
                 }),
               }),
               Object(c.jsxs)("div", {
@@ -31756,7 +31756,7 @@
             children: [
               Object(c.jsx)(oj.a, {
                 children: Object(c.jsx)("title", {
-                  children: "Remove Liquidity | SAKURAINU SWAP",
+                  children: "Remove Liquidity | SIMPSONSSWAP SWAP",
                 }),
               }),
               Object(c.jsxs)("div", {
@@ -35283,7 +35283,7 @@
             children: [
               Object(c.jsxs)(oj.a, {
                 children: [
-                  Object(c.jsx)("title", { children: "Swap | SAKURAINU SWAP" }),
+                  Object(c.jsx)("title", { children: "Swap | SIMPSONSSWAP SWAP" }),
                   Object(c.jsx)("meta", {
                     name: "description",
                     content:
@@ -36520,16 +36520,16 @@
                                                     ? ((m = b[1][0]
                                                       .mul(W.a.from(10).pow(18))
                                                       .div(b[0][0])),
-                                                      "SAKURAINU" ===
+                                                      "SIMPSONSSWAP" ===
                                                       t.liquidityPair.token0
                                                         .symbol && (fC = m))
-                                                    : "SAKURAINU" ===
+                                                    : "SIMPSONSSWAP" ===
                                                       t.liquidityPair.token1
                                                         .symbol
                                                       ? (m = fC
                                                         .mul(b[1][0])
                                                         .div(b[0][0]))
-                                                      : "SAKURAINU" ===
+                                                      : "SIMPSONSSWAP" ===
                                                       t.liquidityPair.token0
                                                         .symbol && (m = fC),
                                                   (f = m
@@ -36666,7 +36666,7 @@
                               (t = Y.map(function (e) {
                                 return {
                                   address: s.address,
-                                  name: "pendingSAKURAINU",
+                                  name: "pendingSIMPSONSSWAP",
                                   params: [e.id, r],
                                 };
                               })),
@@ -37196,7 +37196,7 @@
                                   (r = n.sent),
                                   n.abrupt(
                                     "return",
-                                    e(r, { summary: "Deposit SAKURAINU" })
+                                    e(r, { summary: "Deposit SIMPSONSSWAP" })
                                   )
                                 );
                               case 8:
@@ -37247,7 +37247,7 @@
                                   (i = n.sent),
                                   n.abrupt(
                                     "return",
-                                    e(i, { summary: "Withdraw SAKURAINU" })
+                                    e(i, { summary: "Withdraw SIMPSONSSWAP" })
                                   )
                                 );
                               case 7:
@@ -37699,7 +37699,7 @@
                         }, e);
                       })
                     ),
-                    children: ["Harvest", "  ", Yt(S), " SAKURAINU"],
+                    children: ["Harvest", "  ", Yt(S), " SIMPSONSSWAP"],
                   }),
                 }),
               ],
@@ -37767,11 +37767,11 @@
             children: [
               Object(c.jsxs)(oj.a, {
                 children: [
-                  Object(c.jsx)("title", { children: "Farm | SAKURAINU" }),
+                  Object(c.jsx)("title", { children: "Farm | SIMPSONSSWAP" }),
                   Object(c.jsx)("meta", {
                     name: "description",
                     content:
-                      "Farm SAKURAINU by staking LP (Liquidity Provider) tokens",
+                      "Farm SIMPSONSSWAP by staking LP (Liquidity Provider) tokens",
                   }),
                 ],
               }),
@@ -37794,7 +37794,7 @@
                               "rewards-summary__earned flex items-center",
                             children: Object(c.jsxs)("p", {
                               children: [
-                                "SAKURAINU to Harvest ",
+                                "SIMPSONSSWAP to Harvest ",
                                 Object(c.jsx)("span", { children: m }),
                               ],
                             }),
@@ -37808,7 +37808,7 @@
                                   name: "Wallet",
                                   set: "light",
                                 }),
-                                "Your SAKURAINU Wallet Balance: ",
+                                "Your SIMPSONSSWAP Wallet Balance: ",
                                 Object(c.jsx)("span", { children: b }),
                               ],
                             }),
@@ -38656,13 +38656,13 @@
             n =
               (e.chainId,
                 e.library,
-                "https://SAKURAINUbsc.com?ref=".concat(t)),
+                "https://SIMPSONSSWAPbsc.com?ref=".concat(t)),
             a = GD();
           return Object(c.jsxs)(c.Fragment, {
             children: [
               Object(c.jsxs)(oj.a, {
                 children: [
-                  Object(c.jsx)("title", { children: "Refer | SAKURAINU SWAP" }),
+                  Object(c.jsx)("title", { children: "Refer | SIMPSONSSWAP SWAP" }),
                   Object(c.jsx)("meta", {
                     name: "description",
                     content: "Invite your friends",
@@ -38878,7 +38878,7 @@
                     Object(c.jsx)("div", {
                       className: "flex justify-end items-center",
                       children: Object(c.jsxs)($D, {
-                        children: [Yt(t.amount), " SAKURAINU"],
+                        children: [Yt(t.amount), " SIMPSONSSWAP"],
                       }),
                     }),
                   ],
@@ -39269,7 +39269,7 @@
                                 (a = n.sent),
                                 n.abrupt(
                                   "return",
-                                  e(a, { summary: "Harvest SAKURAINU" })
+                                  e(a, { summary: "Harvest SIMPSONSSWAP" })
                                 )
                               );
                             case 7:
@@ -39316,7 +39316,7 @@
                                   (r = n.sent),
                                   n.abrupt(
                                     "return",
-                                    e(r, { summary: "Deposit SAKURAINU" })
+                                    e(r, { summary: "Deposit SIMPSONSSWAP" })
                                   )
                                 );
                               case 8:
@@ -39366,7 +39366,7 @@
                                   (r = n.sent),
                                   n.abrupt(
                                     "return",
-                                    e(r, { summary: "Deposit SAKURAINU" })
+                                    e(r, { summary: "Deposit SIMPSONSSWAP" })
                                   )
                                 );
                               case 8:
@@ -39416,7 +39416,7 @@
                                   (r = n.sent),
                                   n.abrupt(
                                     "return",
-                                    e(r, { summary: "Withdraw SAKURAINU" })
+                                    e(r, { summary: "Withdraw SIMPSONSSWAP" })
                                   )
                                 );
                               case 8:
@@ -39498,7 +39498,7 @@
                                   (b = i.sent),
                                   i.abrupt(
                                     "return",
-                                    e(b, { summary: "Withdraw SAKURAINU" })
+                                    e(b, { summary: "Withdraw SIMPSONSSWAP" })
                                   )
                                 );
                               case 17:
@@ -39622,7 +39622,7 @@
               d = new ji.b(X.contracts.DinoVault.abi),
               u = zj(
                 new At(
-                  new Je(c || 1, ce[c || 1], 18, "SAKURAINU", ""),
+                  new Je(c || 1, ce[c || 1], 18, "SIMPSONSSWAP", ""),
                   It.ethers.constants.MaxUint256.toString()
                 ),
                 oe[c || 1]
@@ -39630,7 +39630,7 @@
               A = Object(Ge.a)(u, 2)[1],
               p = zj(
                 new At(
-                  new Je(c || 1, ce[c || 1], 18, "SAKURAINU", ""),
+                  new Je(c || 1, ce[c || 1], 18, "SIMPSONSSWAP", ""),
                   It.ethers.constants.One.toString()
                 ),
                 oe[c || 1]
@@ -39655,14 +39655,14 @@
                               (n = [
                                 {
                                   id: 0,
-                                  title: "Auto SAKURAINU",
+                                  title: "Auto SIMPSONSSWAP",
                                   description: "Automatic restaking",
                                   image:
-                                    "https://sakurainuswap.com/logotoken.png",
+                                    "https://simpsonsswap.com/logotoken.png",
                                   claimType: rS,
                                   autoClaimNote:
                                     "0.2% unstaking fee if withdrawn within 48h Performance Fee 1%",
-                                  currency: "SAKURAINU",
+                                  currency: "SIMPSONSSWAP",
                                   apyPercentage: 0,
                                   totalStaked: 0,
                                   enabled: 3 == b,
@@ -39680,12 +39680,12 @@
                                 },
                                 {
                                   id: 1,
-                                  title: "Manual SAKURAINU",
-                                  description: "Earn SAKURAINU stake SAKURAINU",
+                                  title: "Manual SIMPSONSSWAP",
+                                  description: "Earn SIMPSONSSWAP stake SIMPSONSSWAP",
                                   image:
-                                    "https://sakurainuswap.com/logotoken.png",
+                                    "https://simpsonsswap.com/logotoken.png",
                                   claimType: cS,
-                                  currency: "SAKURAINU",
+                                  currency: "SIMPSONSSWAP",
                                   apyPercentage: 0,
                                   totalStaked: 0,
                                   enabled: 3 == b,
@@ -39862,7 +39862,7 @@
                           children: [
                             Object(c.jsxs)(vN, {
                               className: "pb-3",
-                              children: [e.reward, " SAKURAINU"],
+                              children: [e.reward, " SIMPSONSSWAP"],
                             }),
                             Object(c.jsxs)(AN, {
                               children: ["~", e.rewardUsd.toFixed(2), " USD"],
@@ -39879,7 +39879,7 @@
                         Object(c.jsx)(pN, {
                           children: "Pool total pending yield",
                         }),
-                        Object(c.jsxs)(pN, { children: [e.pending, " SAKURAINU"] }),
+                        Object(c.jsxs)(pN, { children: [e.pending, " SIMPSONSSWAP"] }),
                       ],
                     }),
                     Object(c.jsxs)(Jd, {
@@ -40130,7 +40130,7 @@
                                     }),
                                     Object(c.jsx)(ON, {
                                       className: "ml-2",
-                                      children: "SAKURAINU",
+                                      children: "SIMPSONSSWAP",
                                     }),
                                   ],
                                 }),
@@ -40264,7 +40264,7 @@
                               className: "w-full",
                               target: "_blank",
                               children: [
-                                Object(c.jsx)("span", { children: "Get SAKURAINU" }),
+                                Object(c.jsx)("span", { children: "Get SIMPSONSSWAP" }),
                                 Object(c.jsx)(CN, {
                                   source: kS,
                                   size: "20px",
@@ -40337,7 +40337,7 @@
                 if (y) {
                   g({
                     enabled: !0,
-                    currency: "SAKURAINU",
+                    currency: "SIMPSONSSWAP",
                     totalClaim: y ? y[0].claimReward : 0,
                     totalPending: y ? y[0].claimPending : 0,
                     totalClaimUsd: y ? y[0].claimRewardUsd : 0,
@@ -40485,7 +40485,7 @@
               children: [
                 Object(c.jsxs)(oj.a, {
                   children: [
-                    Object(c.jsx)("title", { children: "Stake | SAKURAINU SWAP" }),
+                    Object(c.jsx)("title", { children: "Stake | SIMPSONSSWAP SWAP" }),
                     Object(c.jsx)("meta", {
                       name: "description",
                       content:
@@ -40512,7 +40512,7 @@
                                 "rewards-summary__earned flex items-center",
                               children: Object(c.jsxs)("p", {
                                 children: [
-                                  "SAKURAINU to Harvest ",
+                                  "SIMPSONSSWAP to Harvest ",
                                   Object(c.jsx)("span", { children: B }),
                                 ],
                               }),
@@ -40526,7 +40526,7 @@
                                     name: "Wallet",
                                     set: "light",
                                   }),
-                                  "Your SAKURAINU Wallet Balance: ",
+                                  "Your SIMPSONSSWAP Wallet Balance: ",
                                   Object(c.jsx)("span", { children: D }),
                                 ],
                               }),
@@ -40557,7 +40557,7 @@
                                       children: "STAKE - COMING SOON",
                                     }),
                                     Object(c.jsx)(pN, {
-                                      children: "Stake SAKURAINU Not Yet Avaiable, Don't Stake Token.",
+                                      children: "Stake SIMPSONSSWAP Not Yet Avaiable, Don't Stake Token.",
                                     }),
                                   ],
                                 }),
@@ -40595,7 +40595,7 @@
                                           ? void 0
                                           : E.currency) && void 0 !== e
                                       ? e
-                                      : "SAKURAINU",
+                                      : "SIMPSONSSWAP",
                                     " Bounty",
                                   ],
                                 }),
@@ -41941,7 +41941,7 @@
                                 }),
                                 Object(c.jsx)("div", {
                                   className: "text-body font-medium",
-                                  children: "SAKURAINU",
+                                  children: "SIMPSONSSWAP",
                                 }),
                               ],
                             }),
@@ -44332,7 +44332,7 @@
                           children: [
                             "Play to earn ",
                             Object(c.jsx)("br", {}),
-                            " With SAKURAINU",
+                            " With SIMPSONSSWAP",
                           ],
                         }),
                       ],
@@ -45372,7 +45372,7 @@
                     children: [
                       Object(c.jsx)(NM, { children: "Funny Game" }),
                       Object(c.jsx)(SM, {
-                        children: "Play to earn With SAKURAINU",
+                        children: "Play to earn With SIMPSONSSWAP",
                       }),
                     ],
                   }),
